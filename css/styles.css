@@ -76,13 +76,40 @@ body {
 
 /*section feature*/
 .feature {
+  background-color: #ffffff;
 }
-
 .feature-title {
   color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-.feature-text {
+/*work and team*/
+.work {
+  background-color: #ffffff;
+}
+
+.section-title {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team-title {
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.team-text {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 /*page footer*/
@@ -92,6 +119,7 @@ body {
 
 .address-contacts {
   font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 24px;
 }
