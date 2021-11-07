@@ -1,17 +1,17 @@
 /*main text color #212121 */
 /*second text color #757575 */
 /*accent color #2196F3*/
-/*active button`s text color #2196F3*/
 /*main background #ffffff*/
 /*second background #F5F4FA*/
 /*footer background #2F303A*/
 
-body {
+/*page index*/
+.page {
   color: #757575;
   font-family: Roboto;
   font-size: 14px;
   line-height: 24px;
-  background-color: #f5f4fa;
+  background-color: #ffffff;
 }
 
 /*header page*/
@@ -45,7 +45,6 @@ body {
 /*header nav conacts*/
 .nav-contacts {
   color: #757575;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -56,21 +55,23 @@ body {
   color: #2196f3;
 }
 
-/*header line with button*/
-.line-button {
+/*page section with button*/
+.section-button {
   background-color: #2f303a;
 }
 
-.line-button-text {
+.section-button-title {
   color: #ffffff;
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
 }
 
-.button-in-line {
+.page-button {
   color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
   background-color: #2196f3;
 }
 
@@ -80,7 +81,6 @@ body {
 }
 .feature-title {
   color: #212121;
-  font-family: Roboto;
   font-size: 14px;
   line-height: 16px;
 }
@@ -90,9 +90,12 @@ body {
   background-color: #ffffff;
 }
 
+.team {
+  background-color: #f5f4fa;
+}
+
 .section-title {
   color: #212121;
-  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -100,14 +103,16 @@ body {
 
 .team-title {
   color: #212121;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
 
+.color-group {
+  background-color: #ffffff;
+}
+
 .team-text {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 19px;
 }
@@ -117,8 +122,15 @@ body {
   background-color: #2f303a;
 }
 
+.logo-footer {
+  color: #ffffff;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
 .address-contacts {
-  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
@@ -130,6 +142,43 @@ body {
 
 .address {
   color: #ffffff;
+}
+
+/*page portfolio*/
+.page-portfolio {
+  color: #212121;
+  font-family: Roboto;
+}
+
+/*button filtres*/
+.button-filtres {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.color-button {
+  background-color: #f5f4fa;
+}
+
+.button-filtres :focus,
+.button-filtres :hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/*project*/
+.projects-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.projects-text {
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 /*text formatting*/
