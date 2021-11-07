@@ -1,0 +1,111 @@
+/*main text color #212121 */
+/*second text color #757575 */
+/*accent color #2196F3*/
+/*active button`s text color #2196F3*/
+/*main background #ffffff*/
+/*second background #F5F4FA*/
+/*footer background #2F303A*/
+
+body {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #f5f4fa;
+}
+
+/*header page*/
+.header {
+  background-color: #ffffff;
+}
+
+/*logo*/
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-item {
+  color: #2196f3;
+}
+
+/*header nav*/
+.header-nav {
+  color: #212121;
+  font-weight: 500;
+}
+.header-nav :hover,
+.header-nav :focus {
+  color: #2196f3;
+}
+
+/*header nav conacts*/
+.nav-contacts {
+  color: #757575;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav-contacts :hover,
+.nav-contacts :focus {
+  color: #2196f3;
+}
+
+/*header line with button*/
+.line-button {
+  background-color: #2f303a;
+}
+
+.line-button-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.button-in-line {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/*section feature*/
+.feature {
+}
+
+.feature-title {
+  color: #212121;
+}
+
+.feature-text {
+}
+
+/*page footer*/
+.footer {
+  background-color: #2f303a;
+}
+
+.address-contacts {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+  color: #ffffff;
+}
+
+/*text formatting*/
+.list {
+  list-style: none;
+  text-decoration: none;
+}
