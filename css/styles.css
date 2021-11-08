@@ -8,10 +8,10 @@
 /*page index*/
 .page {
   color: #757575;
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 24px;
+  font-family: Roboto, sans-serif;
   background-color: #ffffff;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /*header page*/
@@ -22,10 +22,10 @@
 /*logo*/
 .logo {
   color: #000000;
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .logo-item {
@@ -36,9 +36,11 @@
 .header-nav {
   color: #212121;
   font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
-.header-nav :hover,
-.header-nav :focus {
+.header-nav:hover,
+.header-nav:focus {
   color: #2196f3;
 }
 
@@ -47,32 +49,40 @@
   color: #757575;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
   letter-spacing: 0.02em;
 }
-.nav-contacts :hover,
-.nav-contacts :focus {
+.nav-contacts:hover,
+.nav-contacts:focus {
   color: #2196f3;
 }
 
 /*page section with button*/
 .section-button {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .section-button-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 .page-button {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.84;
+  letter-spacing: 0.06em;
   background-color: #2196f3;
+  cursor: pointer;
+}
+
+.page-button:active {
+  color: #212121;
+  background-color: #f5f4fa;
 }
 
 /*section feature*/
@@ -81,40 +91,41 @@
 }
 .feature-title {
   color: #212121;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
 }
 
 /*work and team*/
-.work {
+.works {
   background-color: #ffffff;
-}
-
-.team {
-  background-color: #f5f4fa;
 }
 
 .section-title {
   color: #212121;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*our team*/
+.team {
+  background-color: #f5f4fa;
 }
 
 .team-title {
   color: #212121;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-names {
+  color: #212121;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 .color-group {
   background-color: #ffffff;
-}
-
-.team-text {
-  font-size: 16px;
-  line-height: 19px;
 }
 
 /*page footer*/
@@ -124,16 +135,8 @@
 
 .logo-footer {
   color: #ffffff;
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-}
-
-.address-contacts {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
 }
 
 .footer-contacts {
@@ -142,43 +145,46 @@
 
 .address {
   color: #ffffff;
+  font-style: normal;
 }
 
 /*page portfolio*/
 .page-portfolio {
   color: #212121;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  background-color: #ffffff;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /*button filtres*/
-.button-filtres {
+.filtres-button {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-}
-
-.color-button {
+  line-height: 1.62;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
-.button-filtres :focus,
-.button-filtres :hover {
+.filtres-button:focus,
+.filtres-button:hover {
   color: #ffffff;
   background-color: #2196f3;
 }
 
 /*project*/
 .projects-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 
 .projects-text {
   color: #757575;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 }
 
 /*text formatting*/
