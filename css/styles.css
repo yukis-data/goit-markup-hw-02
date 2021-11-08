@@ -80,7 +80,8 @@
   cursor: pointer;
 }
 
-.page-button:active {
+.page-button:active,
+.page-button:focus {
   color: #212121;
   background-color: #f5f4fa;
 }
