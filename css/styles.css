@@ -79,9 +79,12 @@
   background-color: #2196f3;
   cursor: pointer;
 }
+.page-button:focus,
+.page-button:hover {
+  background-color: #188ce8;
+}
 
-.page-button:active,
-.page-button:focus {
+.page-button:active {
   color: #212121;
   background-color: #f5f4fa;
 }
@@ -94,6 +97,7 @@
   color: #212121;
   font-weight: 700;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 /*work and team*/
@@ -104,6 +108,8 @@
 .section-title {
   color: #212121;
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   text-align: center;
 }
 
@@ -115,6 +121,8 @@
 .team-title {
   color: #212121;
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: center;
 }
